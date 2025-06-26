@@ -119,12 +119,16 @@
 //     less.style.display = "none";
 // });
 
-const head = document.querySelector(".head");
+const head = document.querySelectorAll(".head");
 
 window.addEventListener("scroll", () => {
     if (window.scrollY >= 150) {
-        head.classList.add("scrolled");
+        head.forEach((head) => {
+            head.classList.add("scrolled");
+        });
     } else {
-        head.classList.remove("scrolled");
+        head.forEach((head) => {
+            head.classList.remove("scrolled");
+        });
     }
 });

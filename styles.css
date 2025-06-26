@@ -628,11 +628,11 @@ header .container {
 .delivery-container #sign-in-3 {
     display: none;
     width: 203.5px;
-    letter-spacing: 0.15px;
+    letter-spacing: 0.26px;
 
 }
 .delivery-container #sign-in-3 .i-wrapper {
-    margin-right: 8px;
+    /* margin-right: 8px; */
 }
 
 /* .delivery-container #sign-in-3 i { */

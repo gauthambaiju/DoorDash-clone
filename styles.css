@@ -174,7 +174,6 @@ h2 {
     background-color: var(--secondary);
     color: #606060ff;
 }
-
 .head.medium svg {
     margin-left: 8px;
     margin-top: 4px;
@@ -630,9 +629,6 @@ header .container {
     width: 203.5px;
     letter-spacing: 0.26px;
 
-}
-.delivery-container #sign-in-3 .i-wrapper {
-    /* margin-right: 8px; */
 }
 
 /* .delivery-container #sign-in-3 i { */
